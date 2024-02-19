@@ -1,4 +1,7 @@
+module "leonmodule" {
+  source = "git::https://github.com/leepereira/terraform_azure.git"
 
+}
 locals {
   arr = ["host1", "host2", "host3"]
 }
